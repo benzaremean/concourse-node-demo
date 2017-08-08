@@ -1,0 +1,10 @@
+on_failure:
+  put: concourse-node-demo
+  params:
+    repository: benzaremean/concourse-node-demo
+    status: failed
+on_success:
+  put: concourse-node-demo
+  params:
+    repository: benzaremean/concourse-node-demo
+    status: success
