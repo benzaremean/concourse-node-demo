@@ -1,6 +1,8 @@
 const { assert } = require('chai');
 const add = require('../maths');
 
+const x = 1;
+
 describe('tests', () => {
   it('two numbers added', () => {
     const answer = add(1, 1);
