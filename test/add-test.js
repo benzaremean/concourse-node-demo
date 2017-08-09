@@ -16,5 +16,10 @@ describe('tests', () => {
     const answer = add(5, 5);
     assert.equal(10, answer);
   });
+
+  it('two numbers added again and again', () => {
+    const answer = add(5, 5);
+    assert.equal(10, answer);
+  });
 });
 
